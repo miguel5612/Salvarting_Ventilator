@@ -290,8 +290,8 @@
 TM1638plus tm(pin_Strobe_TM, pin_Clock_TM , pin_DIO_TM);  //Constructor object
 #endif
 
-#ifdef bmp180
-SFE_BMP180 pressure;
+#ifdef BMP180
+SFE_BMP180 bmp;
 #endif
 
 #ifdef BoschBMxSensor
@@ -960,12 +960,32 @@ void readSensors() // Works no matter if sensor is present or not (returns defau
 
 {
  float temp(NAN), hum(NAN), pres(NAN);
- BME280::TempUnit tempUnit(BME280::TempUnit_Celsius);
- BME280::PresUnit presUnit(BME280::PresUnit_Pa);
- bme.read(pres, temp, hum, tempUnit, presUnit);
+ #ifdef BMP180
+ 
+  // Start a temperature measurement:
+  // If request is successful, the number of ms to wait is returned.
+  // If request is unsuccessful, 0 is returned.
+
+  int status = bmp.startTemperature();
+  if (status != 0)
+  {
+     double t, p;
+     bmp.getTemperature(t);
+     bmp.getPressure(p,t);
+     temp = t;
+     pres = p;
+  }
+ #endif
+ #ifdef BoschBMxSensor
+  BME280::TempUnit tempUnit(BME280::TempUnit_Celsius);
+  BME280::PresUnit presUnit(BME280::PresUnit_Pa);
+  bme.read(pres, temp, hum, tempUnit, presUnit);
+ #endif
  if (sensPressure)
   {
-    pressure=pres;
+    #ifdef BoschBMxSensor
+      pressure=pres;
+     #endif
     if (stepper.currentPosition()==0)  // approximate athmospheric pressure by averaging when the bag is filled
      ambientPressure=(ambientPressure==0)?pressure:ambientPressure*(1-ambientPressureFilter)+pres*ambientPressureFilter; // low pass filtering
     avgPressure=(avgPressure==0)?pressure:avgPressure*(1-avgPressureFilter)+pres*avgPressureFilter;                      // low pass filtering
@@ -1013,9 +1033,25 @@ void readSensors() // Works no matter if sensor is present or not (returns defau
 
 void detectBMEsensor()  // Detects the pressure sensor correct type or the absence of a functional pressure sensor
 {
+ Serial.println("************************");
  sensHumidity=false;
  sensTemperature=false;
  sensPressure=false;
+ #ifdef BMP180
+  Serial.println("LOL");
+  sensTemperature=true;
+  sensPressure=true;
+  if (bmp.begin())
+    Serial.println("BMP180 init success");
+  else
+  {
+    // Oops, something went wrong, this is usually a connection problem,
+    // see the comments at the top of this sketch for the proper connections.
+
+    Serial.println("BMP180 init fail\n\n");
+    while(1); // Pause forever.
+  }
+ #endif
  #ifdef BoschBMxSensor
  if(bme.begin())
   {
