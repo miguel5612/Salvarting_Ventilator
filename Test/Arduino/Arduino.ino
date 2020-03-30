@@ -1,7 +1,7 @@
 /*Example sketch to control a stepper motor with A4988/DRV8825 stepper motor driver and Arduino without a library. More info: https://www.makerguides.com */
 // Define stepper motor connections and steps per revolution:
-#define dirPin 2
-#define stepPin 3
+#define dirPin 6
+#define stepPin 7
 #define stepsPerRevolution 200
 void setup() {
   // Declare pins as output:

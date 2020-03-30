@@ -56,7 +56,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
   Author: Eric Vinter.
+  Modified by: Miguel A Califa
   Created March 19, 2020
+  Modified March 29, 2020
+  EMAIL: miguelangel5612@gmail.com
   EMAIL : erv at mailpeers dot net
   
 */
