@@ -84,13 +84,13 @@
 #define stepBPM                     1.0   // adjustment step for respiratory speed
 #define maxBPM                     35.0   // maximum respiratory speed
 #define maxBPMchange                0.2   // maximum respiratory speed change in proportion of final value per beat (1=100%)
-#define minVolume                 100.0   // minimum respiratory volume in milliliters 
-#define defaultVolume             150.0   // default respiratory volume in milliliters 
-#define stepVolume                100.0   // adjustment step for respiratory volume in milliliters 
-#define maxVolume                 800.0   // maximum respiratory volume in milliliters 
+#define minVolume                 400.0   // minimum respiratory volume in milliliters 
+#define defaultVolume             400.0   // default respiratory volume in milliliters 
+#define stepVolume                1000.0   // adjustment step for respiratory volume in milliliters 
+#define maxVolume                 600.0   // maximum respiratory volume in milliliters 
 #define maxVolumeChange             0.25  // maximum respiratory volume change in proportion of final value per beat (1=100%) 
 #define minCompression           1000.00  // minimum compression for the ambu-bag in Pa
-#define stepCompression           500.00  // adjustment step for compression for the ambu-bag in Pa
+#define stepCompression           1000.00  // adjustment step for compression for the ambu-bag in Pa
 #define defaultCompression       3000.00  // default compression for the ambu-bag in Pa
 #define maxCompression          20000.00  // maximum compression for the ambu-bag in Pa
 #define maxCompressionChange        0.5   // maximum compression for the ambu-bag change in proportion of final value per beat (1=100%)
@@ -127,9 +127,9 @@
  */
 
 #define motorSpeed               5000     // Speed for 1 liter/second
-#define motorAcceleration        8500     // Acceleration for 1 liter / second (inverse square of flow)
+#define motorAcceleration        3500     // Acceleration for 1 liter / second (inverse square of flow)
 #define motorMaxAcceleration    30000     // deceleration when pressure limit reached
-#define motorVolumeRatio            0.8   // Ratio of distance in steps to air volume in step per milliliter.
+#define motorVolumeRatio          4000   // Ratio of distance in steps to air volume in step per milliliter.
                                           
 
 /*******************************   HARDWARE OPTIONS   *******************************
