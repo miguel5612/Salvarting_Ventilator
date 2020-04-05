@@ -82,6 +82,11 @@ To design a low cost/ high sofisticated respirator using local materials
 ## Total cost
 **Aprox** (Electric - Mechanic - Neumatic): $
 
+# Manual
+
+## Initial presentation (29.03.2020)
+[view](https://drive.google.com/open?id=1U2AUueaFD7FKk89XvETDbtZuPM2e4Z0P)
+
 # Team
 ## Salvarting
 * **Miguel A. Califa U.** - [*GitHub*](https://github.com/miguel5612) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000050477)
