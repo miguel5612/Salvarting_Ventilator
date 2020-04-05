@@ -81,8 +81,10 @@ To design a low cost/ high sofisticated respirator using local materials
 # Team
 * **Miguel A. Califa U.** - [*GitHub*](https://github.com/miguel5612) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000050477)
 * **Yersson Ramiro Carrillo Amado** - [*GitHub*](https://github.com/yercar18) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001637655)
+* **Brayam Steven caicedo florez**  - [*GitHub*]() - [CV]()
+* **Carlos Mauricio Pallares Carrillo**  - [*GitHub*]() - [CV]()
 * **Pedro Jesús Gonzalez Torres** - [*GitHub*]() - [CV]()
-* **Cesar Salazar** - [*GitHub*]() - [CV]()
+* **Cesar Salazar Paez.** - [*GitHub*]() - [CV]()
 * **Yeison Ferney Osorio buitrago** - [*GitHub*]() - [CV]()
 * **Alber Iván Sánchez Álvarez** - [*GitHub*]() - [CV]()
 * **Juan Enrique Vargas López** - [*GitHub*]() - [CV]()
