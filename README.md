@@ -14,7 +14,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# Arduino_Respirator
+# Arduino Low Cost Respirator
 Arduino low cost respirator to assist coronavirus crisis.
 
 <!-- TABLE OF CONTENTS -->
@@ -39,8 +39,8 @@ Arduino low cost respirator to assist coronavirus crisis.
 * Connect the electrical components.
 * Test your mechanical work to check his functionality.
 * Download the code and program.
-  * If the interface will be via serial port program [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilator/OpenSourceVentilatorSerial.ino)
-  * In case you have an ESP8266 and want to control it via Wi-Fi connect your ESP-8266 to the arduino and load the ESP-8266 code together with the [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilator/OpenSourceVentilatorSerial.ino) code
+  * If the interface will be via serial port program [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilatorSerial/OpenSourceVentilatorSerial.ino)
+  * In case you have an ESP8266 and want to control it via Wi-Fi connect your ESP-8266 to the arduino and load the ESP-8266 code together with the [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilatorSerial/OpenSourceVentilatorSerial.ino) code
 ## Objective
 To design a low cost/ high sofisticated respirator using local materials
 ## Result
