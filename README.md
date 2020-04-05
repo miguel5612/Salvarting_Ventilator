@@ -39,6 +39,7 @@ Arduino low cost respirator to assist coronavirus crisis.
 * Connect the electrical components.
 * Test your mechanical work to check his functionality.
 * Download the code and program.
+  * First load each test on test folder to try individually the components and check his work.
   * If the interface will be via serial port program [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilatorSerial/OpenSourceVentilatorSerial.ino)
   * In case you have an ESP8266 and want to control it via Wi-Fi connect your ESP-8266 to the arduino and load the ESP-8266 code together with the [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilatorSerial/OpenSourceVentilatorSerial.ino) code
 ## Objective
