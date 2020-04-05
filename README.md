@@ -31,6 +31,7 @@ Arduino low cost respirator to assist coronavirus crisis.
 * [Sensor manufacturers](#Sensor-manufacturers)
 * [Contributing](#Contributing)
 * [Authors](#TEAM)
+* [Partners](#Partners)
 
 # Objective
 To design a low cost/ high sofisticated respirator using local materials
@@ -86,7 +87,9 @@ To design a low cost/ high sofisticated respirator using local materials
 * **Alber Iván Sánchez Álvarez** - [*GitHub*]() - [CV]()
 * **Juan Enrique Vargas López** - [*GitHub*]() - [CV]()
 * **Johan jazer orduz Molina** - [*GitHub*]() - [CV]()
-
+# Partners
+* **[CNC Ciensia](https://www.instagram.com/cnc.ciensa/)**
+* **[Vistronica](https://www.vistronica.com/)**
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/miguel5612/Arduino_Respirator.svg?style=flat-square
