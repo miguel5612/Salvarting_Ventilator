@@ -28,7 +28,7 @@ Arduino low cost respirator to assist coronavirus crisis.
   * [Sensors](#Sensors)
   * [Arduino](#Arduino)
   * [ESP8266](#ESP8266)
-* [User Manual](#Manuals)
+* [Documentation](#Documentation)
 * [Sensor manufacturers](#Sensor-manufacturers)
 * [Contributing](#Contributing)
 * [Authors](#TEAM)
@@ -82,9 +82,9 @@ To design a low cost/ high sofisticated respirator using local materials
 ## Total cost
 **Aprox** (Electric - Mechanic - Neumatic): $
 
-# Manual
+# Documentation
 
-## Initial presentation (29.03.2020)
+### Initial presentation (29.03.2020)
 [view](https://drive.google.com/open?id=1U2AUueaFD7FKk89XvETDbtZuPM2e4Z0P)
 
 # Team
