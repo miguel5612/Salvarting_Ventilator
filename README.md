@@ -21,7 +21,7 @@ Arduino low cost respirator to assist coronavirus crisis.
 ## Table of Contents
 
 * [Getting Started](#Getting-Started)
-  * [Objetive](#Objective)
+  * [Objective](#Objective)
 * [List of Materials](#Materials)
 * [Wiring](#Wiring)
   * [Sensors](#Sensors)
