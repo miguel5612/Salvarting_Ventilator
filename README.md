@@ -35,7 +35,8 @@ Arduino low cost respirator to assist coronavirus crisis.
 
 # Objective
 To design a low cost/ high sofisticated respirator using local materials
-# Materials - Updated 04.04.2020
+# Materials
+## Updated 04.04.2020
 ## Electronics:
 | Name | Provider | Pricing (COP) |
 | ------------- | ------------- |  ------------- |
