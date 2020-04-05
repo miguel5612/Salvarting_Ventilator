@@ -108,7 +108,7 @@ To design a low cost/ high sofisticated respirator using local materials
 [issues-shield]: https://img.shields.io/github/issues/miguel5612/Arduino_Respirator.svg?style=flat-square
 [issues-url]: https://github.com/miguel5612/Arduino_Respirator/issues
 [license-shield]: https://img.shields.io/github/license/miguel5612/Arduino_Respirator.svg?style=flat-square
-[license-url]: https://github.com/miguel5612/Arduino_Respirator/blob/master/LICENSE.txt
+[license-url]: https://github.com/miguel5612/Arduino_Respirator/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [build-url]: https://travis-ci.org/dwyl/esta.svg?branch=master
 [linkedin-url]: https://www.linkedin.com/in/miguel5612
