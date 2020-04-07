@@ -61,39 +61,39 @@ Dispositivo y equipo biomédico. Cualquier instrumento, aparato, artefacto, equi
 
 5. Cuidado de seres humanos durante el embarazo o el nacimiento. O después del mismo, incluyendo el cuidado del recién nacido.
 
-### Laboratory required by regulation:
-### Equipment required by the standard:
-### Variables to be measured or quantitative indicators:
-### Expected result:
+##### Laboratory required by regulation:
+##### Equipment required by the standard:
+##### Variables to be measured or quantitative indicators:
+##### Expected result:
 
 * **[Decreto 4725 de 2005](https://www.who.int/medical_devices/survey_resources/health_technology_national_policy_colombia.pdf)**
 
 Es importante contar con Registro por parte del Invima para comercializar un producto porque a través del Registro Sanitario o permiso de comercialización, el Invima garantiza que la introducción de los dispositivos médicos y equipos biomédicos, cumplan con los estándares de seguridad, eficacia y desempeño para que puedan ser comercializado y usados en Colombia.
 
 
-### Laboratory required by regulation:
-### Equipment required by the standard:
-### Variables to be measured or quantitative indicators:
-### Expected result:
+##### Laboratory required by regulation:
+##### Equipment required by the standard:
+##### Variables to be measured or quantitative indicators:
+##### Expected result:
 
 * **[Resolucion 4816 de 2008](http://www.saludcapital.gov.co/sitios/VigilanciaSaludPublica/Todo%20IIH/Resoluci%C3%B3n%204816%20de%202008.pdf)**
 
 Los fabricantes e importadores de dispositivos médicos de uso en humanos. 
 
 
-### Laboratory required by regulation:
-### Equipment required by the standard:
-### Variables to be measured or quantitative indicators:
-### Expected result:
+##### Laboratory required by regulation:
+##### Equipment required by the standard:
+##### Variables to be measured or quantitative indicators:
+##### Expected result:
 
 * **[]()**
 
 
 
-### Laboratory required by regulation:
-### Equipment required by the standard:
-### Variables to be measured or quantitative indicators:
-### Expected result:
+##### Laboratory required by regulation:
+##### Equipment required by the standard:
+##### Variables to be measured or quantitative indicators:
+##### Expected result:
 
 * **[]()**
 
