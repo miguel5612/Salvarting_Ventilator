@@ -14,7 +14,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# Arduino_Respirator
+# Arduino Low Cost Respirator
 Arduino low cost respirator to assist coronavirus crisis.
 
 <!-- TABLE OF CONTENTS -->
@@ -40,8 +40,9 @@ Arduino low cost respirator to assist coronavirus crisis.
 * Connect the electrical components.
 * Test your mechanical work to check his functionality.
 * Download the code and program.
-  * If the interface will be via serial port program [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilator/OpenSourceVentilatorSerial.ino)
-  * In case you have an ESP8266 and want to control it via Wi-Fi connect your ESP-8266 to the arduino and load the ESP-8266 code together with the [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilator/OpenSourceVentilatorSerial.ino) code
+  * First load each test on test folder to try individually the components and check his work.
+  * If the interface will be via serial port program [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilatorSerial/OpenSourceVentilatorSerial.ino)
+  * In case you have an ESP8266 and want to control it via Wi-Fi connect your ESP-8266 to the arduino and load the ESP-8266 code together with the [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilatorSerial/OpenSourceVentilatorSerial.ino) code
 ## Objective
 To design a low cost/ high sofisticated respirator using local materials
 ## Result
@@ -114,7 +115,7 @@ Los fabricantes e importadores de dispositivos médicos de uso en humanos.
 | utp wire (3-Meters) | [Homecenter](https://www.homecenter.com.co/homecenter-co/product/142905/Cable-1m-utp-Categoria-6-23AWG/142905)  | $7.800 |
 | Potentiometer 4.7K x 3 | [vistronica](https://www.vistronica.com/componentes-pasivos/potenciometro-wxd3-13-2w-4-7k-detail.html) | $23.082 |
 | Start button | [vistronica](https://www.vistronica.com/conectores-cables-y-switches/suiche-pulsador-de-boton-iluminado-verde-46-mm-detail.html) | $7.557 |
-| screw | [vistronica](https://www.vistronica.com/impresora-3d-y-cnc/varillas/varilla-roscada-acero-inoxidable-10mm-1-metro-detail.html) | $25.185 |
+| screw | [vistronica](https://www.vistronica.com/#q=varilla%20roscada%20&from_user=&page=0&refinements=%5B%5D&numerics_refinements=%7B%7D&index_name=%22prestashop2_all_es%22) | $25.185 |
 | T8 NUT | [vistronica](https://www.vistronica.com/impresora-3d-y-cnc/TuercaT8AntiBacklashParaVarillaTrapezoidal1Hilo-detail.html) | $9.877 |
 | Alluminum base for T8 Nut | [cnc ciensia](https://www.instagram.com/cnc.ciensa/) | $25.000  |
 | couple 5mm->8mm | [vistronica](https://www.vistronica.com/acoplamiento-para-eje/) | $4.572 |
@@ -158,7 +159,8 @@ Los fabricantes e importadores de dispositivos médicos de uso en humanos.
 * **Yeison Ferney Osorio buitrago** - [*GitHub*]() - [CV]()
 * **Alber Iván Sánchez Álvarez** - [*GitHub*]() - [CV]()
 * **Juan Enrique Vargas López** - [*GitHub*]() - [CV]()
-* **Johan jazer orduz Molina** - [*GitHub*]() - [CV]()
+* **Johan Jazer Orduz Molina** - [*GitHub*]() - [CV]()
+* **Juan Carlos Vergel** - [*GitHub*]() - [CV]()
 
 ![Salvarting](https://lh3.googleusercontent.com/AzuH3jOi5ijnEcBDfXqL9HO_dPtBWpY2o58rWW1Xs_0ZaDoCeQ3xv360V7CZS7bsBUqv0pDOposgkDT3DAi3yIPqlXZP7J1HyBVd-t-to11igDhemcz5UUPSBZnqGLU42xnTKCZJpqrAlS0BhXmNHU1_EvFbg_bI5e_7AJx1lK5m9I7xtGxhTFvkI-zklvQf-6Z7U1L5KZBkmRg-JPZFk8UC5Ya-2qhQrEqKgbY-1Md4UCZd68lofqCBUZvTWCyD6wAxPec3V3orE-1dGjDgIlzIy4jSBaJW5LoNbydOVX07a7PGOYYdLXv7eSfOCAw7tAxD3zSKpzNdMdhiqvDPTZ0lburtJx6bjczDjIFSIoI5KIiVG_KiXXX6EAqbD7morxt3GX5E4REXdMfpl62sb_R9vdzUF4ae9oKkikAZTiikukzlVI05N4iLpUsKOHRKKVzFCt5JrIy-TXJ2qG0tDsCLQXNdKIsNCkHGnROc4McGRKQlU4DOxNewBHJeVlQmZALjLfw23fuDTYy1m2x9ZrLUxmApKCXLTusb90rSfdJ_bDuBUlIT9jq2ecbUUrIQgrE-twAkozCFi6JfoBu-d6hNE7kfJ7mHlt26OZwY_WbLxKBbv5jtsqn6omjIs0wQgbWF27glJMZxitQbUY7m5two3oGTVWC_ZKyezbhasqG5bR9WKMJPT5yiXYzc1IxHUZ6u=w1366-h621-ft)
 
