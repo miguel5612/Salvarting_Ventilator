@@ -51,7 +51,7 @@ To design a low cost/ high sofisticated respirator using local materials
 **Note**: In spanish because is transcribed from the Colombian regulations
 * **[evaluation of medical device in colombia](https://www.invima.gov.co/dispositivos-medicos-y-equipos-biomedicos)**
 
-#### entity: Invima
+#### Entity: Invima
 #### Params
 * Description
 * Tecnicall studies and results
