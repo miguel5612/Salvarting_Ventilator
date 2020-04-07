@@ -49,6 +49,21 @@ To design a low cost/ high sofisticated respirator using local materials
 ![Result 04.04.2020](https://lh3.googleusercontent.com/74NNB0H3t6N-1nOT1vsUdLlPNlwFXykKHZkd4GFfzxG98wrrTX6rUB_0DXySXwOmhQjdTdcqEWCL1JVKhYL1tkzzZi3m95fB6Z5KyTCcldp7wnhxHnuI5DPztQaGmsJ4wwdi_v7ljeAomFtpV-eLrwcQfOwIAzOwz9Ev4EI4Gor0Y-9Qcaw3exYhGfKOqsiPQ5_vbXQDXqlfPbmvsOzri2Ko6WUDGjm-OglGtqqYEPA7lnrCuxn_QIv2r2eg243Wym_rBnNORybEz6VmJ-jMGeU0jZpTQesEjkr_JO6XRMKCYin33snbViC5A3elH5Im7TbpozvPq8AWY2HDQ-vIaNXoB1AkwYXvmX47ZCP2w2jDiyP71yk7EKMVQ6w7UpsBQ5B4FjAc9CYgcGcLbKHj2wyWMxyxxJ1VNXOuPkLBs3FUIxWNnrOfTwNBmvSjyQionCxbtLObo90iOidhgb0VEmPKS9SdbEA6ga0T-G6bXn3fQwTLUveDaWLV367CIpXRi-FIi-B31dvX76I80rHdNxtNsepRzDx5HVSpEjdmTlC7J8x90VJGtN9r_2Y4cUzwI6RPMBLRKvW4w9zqWPSVk9mH_SYFdvwLnc4cnAcF7kikSuz53WgQGyT1s4zYBkw25W9DsoMKz7rZLi7W_kEobJ-bggXOUu8QfkM3UG6M_JgBAcZ0YR9vkSNA5gDoXCATvfpH=w1366-h621-ft)
 ## Legal
 **Note**: In spanish because is transcribed from the Colombian regulations
+* **[evaluation of medical device in colombia](https://www.invima.gov.co/dispositivos-medicos-y-equipos-biomedicos)**
+
+#### entity: Invima
+#### Params
+* Description
+* Tecnicall studies and results
+* method of sterilization
+* Final Disposal
+* Risk Analisis
+* Security Analisis
+* Clinical studies
+* User manual (Spanish)
+
+* **[Resolucion 522 de 2020](https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%20522%20de%202020.pdf)** 
+
 * **[Clasificacion de dispositivos medicos](https://www.invima.gov.co/documents/20143/442916/abc_dispositivos-medicos.pdf/d32f6922-0c50-bcaa-6b53-066edfb98274)** 
 
 #### Clasification: IIb (C) Riesgo Alto Ventilador pulmonar / implantes ortopédicos.
