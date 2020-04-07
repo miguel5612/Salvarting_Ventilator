@@ -23,6 +23,7 @@ Arduino low cost respirator to assist coronavirus crisis.
 * [Getting Started](#Getting-Started)
   * [Objective](#Objective)
   * [Result](#result)
+  * [Legal framework](#legal)
 * [List of Materials](#Materials)
 * [Wiring](#Wiring)
   * [Sensors](#Sensors)
@@ -45,6 +46,58 @@ Arduino low cost respirator to assist coronavirus crisis.
 To design a low cost/ high sofisticated respirator using local materials
 ## Result
 ![Result 04.04.2020](https://lh3.googleusercontent.com/74NNB0H3t6N-1nOT1vsUdLlPNlwFXykKHZkd4GFfzxG98wrrTX6rUB_0DXySXwOmhQjdTdcqEWCL1JVKhYL1tkzzZi3m95fB6Z5KyTCcldp7wnhxHnuI5DPztQaGmsJ4wwdi_v7ljeAomFtpV-eLrwcQfOwIAzOwz9Ev4EI4Gor0Y-9Qcaw3exYhGfKOqsiPQ5_vbXQDXqlfPbmvsOzri2Ko6WUDGjm-OglGtqqYEPA7lnrCuxn_QIv2r2eg243Wym_rBnNORybEz6VmJ-jMGeU0jZpTQesEjkr_JO6XRMKCYin33snbViC5A3elH5Im7TbpozvPq8AWY2HDQ-vIaNXoB1AkwYXvmX47ZCP2w2jDiyP71yk7EKMVQ6w7UpsBQ5B4FjAc9CYgcGcLbKHj2wyWMxyxxJ1VNXOuPkLBs3FUIxWNnrOfTwNBmvSjyQionCxbtLObo90iOidhgb0VEmPKS9SdbEA6ga0T-G6bXn3fQwTLUveDaWLV367CIpXRi-FIi-B31dvX76I80rHdNxtNsepRzDx5HVSpEjdmTlC7J8x90VJGtN9r_2Y4cUzwI6RPMBLRKvW4w9zqWPSVk9mH_SYFdvwLnc4cnAcF7kikSuz53WgQGyT1s4zYBkw25W9DsoMKz7rZLi7W_kEobJ-bggXOUu8QfkM3UG6M_JgBAcZ0YR9vkSNA5gDoXCATvfpH=w1366-h621-ft)
+## legal (In spanish because is transcribed from the Colombian regulations)
+* **[ley 434 de 2001](http://legal.legis.com.co/document/Index?obra=legcol&document=legcol_75992041b795f034e0430a010151f034)**
+
+Dispositivo y equipo biomédico. Cualquier instrumento, aparato, artefacto, equipo u otro artículo, utilizado sólo o en combinación incluyendo sus componentes, partes accesorios y programas informáticos que intervengan en su buen funcionamiento, fabricado, vendido o recomendado para uso en:
+1. Diagnóstico, control, tratamiento curativo o paliativo, alivio o compensación de una lesión o una deficiencia, o prevención de una enfermedad, trastorno o estado físico anormal o sus síntomas, en un ser humano.
+
+2. Investigación, sustitución o modificación de la anatomía o de un proceso fisiológico.
+
+3. Restauración, corrección o modificación de una función fisiológica o estructura de un ser humano;
+
+4. Diagnóstico del embarazo en un ser humano;
+
+5. Cuidado de seres humanos durante el embarazo o el nacimiento. O después del mismo, incluyendo el cuidado del recién nacido.
+
+### Laboratory required by regulation:
+### Equipment required by the standard:
+### Variables to be measured or quantitative indicators:
+### Expected result:
+
+* **[Decreto 4725 de 2005](https://www.who.int/medical_devices/survey_resources/health_technology_national_policy_colombia.pdf)**
+
+Es importante contar con Registro por parte del Invima para comercializar un producto porque a través del Registro Sanitario o permiso de comercialización, el Invima garantiza que la introducción de los dispositivos médicos y equipos biomédicos, cumplan con los estándares de seguridad, eficacia y desempeño para que puedan ser comercializado y usados en Colombia.
+
+
+### Laboratory required by regulation:
+### Equipment required by the standard:
+### Variables to be measured or quantitative indicators:
+### Expected result:
+
+* **[Resolucion 4816 de 2008](http://www.saludcapital.gov.co/sitios/VigilanciaSaludPublica/Todo%20IIH/Resoluci%C3%B3n%204816%20de%202008.pdf)**
+
+Los fabricantes e importadores de dispositivos médicos de uso en humanos. 
+
+
+### Laboratory required by regulation:
+### Equipment required by the standard:
+### Variables to be measured or quantitative indicators:
+### Expected result:
+
+* **[]()**
+
+
+
+### Laboratory required by regulation:
+### Equipment required by the standard:
+### Variables to be measured or quantitative indicators:
+### Expected result:
+
+* **[]()**
+
+
+
 # Materials
 **Note**: Updated 04.04.2020
 ## Electronics:
