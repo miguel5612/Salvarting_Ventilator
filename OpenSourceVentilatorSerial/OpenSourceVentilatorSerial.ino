@@ -86,14 +86,14 @@
 #define maxBPMchange                0.2   // maximum respiratory speed change in proportion of final value per beat (1=100%)
 #define minVolume                 400.0   // minimum respiratory volume in milliliters 
 #define defaultVolume             400.0   // default respiratory volume in milliliters 
-#define stepVolume                1000.0   // adjustment step for respiratory volume in milliliters 
+#define stepVolume                2000.0   // adjustment step for respiratory volume in milliliters 
 #define maxVolume                 600.0   // maximum respiratory volume in milliliters 
-#define maxVolumeChange             0.25  // maximum respiratory volume change in proportion of final value per beat (1=100%) 
+#define maxVolumeChange             0.55  // maximum respiratory volume change in proportion of final value per beat (1=100%) 
 #define minCompression           1000.00  // minimum compression for the ambu-bag in Pa
 #define stepCompression           1000.00  // adjustment step for compression for the ambu-bag in Pa
-#define defaultCompression       3000.00  // default compression for the ambu-bag in Pa
-#define maxCompression          20000.00  // maximum compression for the ambu-bag in Pa
-#define maxCompressionChange        0.5   // maximum compression for the ambu-bag change in proportion of final value per beat (1=100%)
+#define defaultCompression       5000.00  // default compression for the ambu-bag in Pa
+#define maxCompression          40000.00  // maximum compression for the ambu-bag in Pa
+#define maxCompressionChange        1   // maximum compression for the ambu-bag change in proportion of final value per beat (1=100%)
 #define minSyncRatio                0.00  // minimum portion of the cycle for breath synchronisation
 #define stepSyncRatio               0.05  // adjustment step for portion of the cycle for breath synchronisation
 #define defaultSyncRatio            0.15  // default portion of the cycle for breath synchronisation
@@ -126,10 +126,10 @@
  *     With default parameters, the whole compression can become as short as 250 ms
  */
 
-#define motorSpeed               5000     // Speed for 1 liter/second
-#define motorAcceleration        3500     // Acceleration for 1 liter / second (inverse square of flow)
-#define motorMaxAcceleration    30000     // deceleration when pressure limit reached
-#define motorVolumeRatio          4000   // Ratio of distance in steps to air volume in step per milliliter.
+#define motorSpeed               6000     // Speed for 1 liter/second
+#define motorAcceleration        4500     // Acceleration for 1 liter / second (inverse square of flow)
+#define motorMaxAcceleration    20000     // deceleration when pressure limit reached
+#define motorVolumeRatio          5   // Ratio of distance in steps to air volume in step per milliliter.
                                           
 
 /*******************************   HARDWARE OPTIONS   *******************************
@@ -1041,7 +1041,6 @@ void detectBMEsensor()  // Detects the pressure sensor correct type or the absen
  sensTemperature=false;
  sensPressure=false;
  #ifdef BMP180
-  Serial.println("LOL");
   sensTemperature=true;
   sensPressure=true;
   if (bmp.begin())
@@ -1120,6 +1119,7 @@ void setup() {
  beep(20); 
 #endif 
  Serial.begin(SERIAL_BAUD);
+ Serial.println("Init started");
  int c=1000;
  while (!Serial && c--) delay(1); // wait for serial port to connect. Needed for native USB (non blocking)
  term=Serial; 
