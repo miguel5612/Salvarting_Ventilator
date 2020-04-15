@@ -14,7 +14,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# Arduino Low Cost Respirator
+# Arduino Low Cost Ventilator
 Arduino low cost respirator to assist coronavirus crisis.
 
 <!-- TABLE OF CONTENTS -->
