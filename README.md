@@ -160,6 +160,7 @@ Los fabricantes e importadores de dispositivos médicos de uso en humanos.
 * **Miguel A. Califa U.** - [*GitHub*](https://github.com/miguel5612) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000050477)
 * **Yersson Ramiro Carrillo Amado** - [*GitHub*](https://github.com/yercar18) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001637655)
 * **Brayam Steven caicedo florez**  - [*GitHub*]() - [CV]()
+* **Nelson Beltrán Galvis** - [*GitHub*]() - [CV]()
 * **Carlos Mauricio Pallares Carrillo**  - [*GitHub*]() - [CV]()
 * **Pedro Jesús Gonzalez Torres** - [*GitHub*]() - [CV]()
 * **Cesar Salazar Paez.** - [*GitHub*]() - [CV]()
