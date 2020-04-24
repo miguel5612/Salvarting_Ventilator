@@ -188,7 +188,6 @@ Los fabricantes e importadores de dispositivos médicos de uso en humanos.
 * **Ing Carolina** - [*GitHub*]() - [CV]()
 ## Universidad de Pamplona
 * **Jose Daniel Ramirez Cardoso** - [*GitHub*]() - [CV]()
-* **[Vistronica](https://www.vistronica.com/)**
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/miguel5612/Arduino_Respirator.svg?style=flat-square
