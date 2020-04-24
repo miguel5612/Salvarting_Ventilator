@@ -179,6 +179,16 @@ Los fabricantes e importadores de dispositivos médicos de uso en humanos.
 # Partners
 * **[CNC Ciensia](https://www.instagram.com/cnc.ciensa/)**
 * **[Vistronica](https://www.vistronica.com/)**
+## Universidad Francisco de Paula Santander
+* **Ing Matias Herrera (Punto vive digital)** - [*GitHub*]() - [CV]()
+* **Nelson Beltrán Galvis (Semillero datascience)** - [*GitHub*]() - [CV]()
+* **[Ing Byron Medina Delgado (Decano de ingenierias)](https://www.vistronica.com/)**
+* **[Ing Jhan Piero Rojas Suarez (Investigacion y extension)](https://www.vistronica.com/)**
+## Tecnoparque ocaña (SENA)
+* **Ing Carolina** - [*GitHub*]() - [CV]()
+## Universidad de Pamplona
+* **Jose Daniel Ramirez Cardoso** - [*GitHub*]() - [CV]()
+* **[Vistronica](https://www.vistronica.com/)**
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/miguel5612/Arduino_Respirator.svg?style=flat-square
