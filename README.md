@@ -182,8 +182,8 @@ Los fabricantes e importadores de dispositivos médicos de uso en humanos.
 ## Universidad Francisco de Paula Santander
 * **Ing Matias Herrera (Punto vive digital)** - [*GitHub*]() - [CV]()
 * **Nelson Beltrán Galvis (Semillero datascience)** - [*GitHub*]() - [CV]()
-* **[Ing Byron Medina Delgado (Decano de ingenierias)](https://www.vistronica.com/)**
-* **[Ing Jhan Piero Rojas Suarez (Investigacion y extension)](https://www.vistronica.com/)**
+* **Ing Byron Medina Delgado (Decano de ingenierias** - [*GitHub*]() - [CV]()
+* **Ing Jhan Piero Rojas Suarez (Investigacion y extension** - [*GitHub*]() - [CV]()
 ## Tecnoparque ocaña (SENA)
 * **Ing Carolina** - [*GitHub*]() - [CV]()
 ## Universidad de Pamplona
