@@ -45,6 +45,18 @@ Arduino low cost respirator to assist coronavirus crisis.
   * In case you have an ESP8266 and want to control it via Wi-Fi connect your ESP-8266 to the arduino and load the ESP-8266 code together with the [OpenSourceVentilatorSerial](https://github.com/miguel5612/Arduino_Respirator/blob/master/OpenSourceVentilatorSerial/OpenSourceVentilatorSerial.ino) code
 ## Objective
 To design a low cost/ high sofisticated respirator using local materials
+### Requirements
+| id | Name | Value | Implementation |
+| ------------- | ------------- | ------------- |  ------------- |
+| a | Volume | 0.2 -> 1 Liter  | Ambu-size |
+| b | PEEP | 5 -> 20 cmH2O | Ambu valve |
+| c | FiO2 | 21 -> 100% | Mixture using air valves |
+| d | Relation inspiration - expiration | 1:1 - 1:3.2 | Time or Frecuency using Potentiometer (P1) |
+| e | PIP | 5-80 cmH2O | Pressure sensor measured and programmed using Potentiometer (P2) |
+| f | Volume-control or Pressure-control | option 1 or option 2 | 3 positions button (SW1) |
+| g | Alarm | Buzzer | Pre-programmed |
+| h | Frecuency respirated | up to 35/minute | Speed of motor Potentiometer (P3) |
+| i | Valve pressure relief - Volume sensor - Flow sensor | Mechanic and electronic devices and accesories | Sensors |
 ## Result
 ![Result 04.04.2020](https://lh3.googleusercontent.com/74NNB0H3t6N-1nOT1vsUdLlPNlwFXykKHZkd4GFfzxG98wrrTX6rUB_0DXySXwOmhQjdTdcqEWCL1JVKhYL1tkzzZi3m95fB6Z5KyTCcldp7wnhxHnuI5DPztQaGmsJ4wwdi_v7ljeAomFtpV-eLrwcQfOwIAzOwz9Ev4EI4Gor0Y-9Qcaw3exYhGfKOqsiPQ5_vbXQDXqlfPbmvsOzri2Ko6WUDGjm-OglGtqqYEPA7lnrCuxn_QIv2r2eg243Wym_rBnNORybEz6VmJ-jMGeU0jZpTQesEjkr_JO6XRMKCYin33snbViC5A3elH5Im7TbpozvPq8AWY2HDQ-vIaNXoB1AkwYXvmX47ZCP2w2jDiyP71yk7EKMVQ6w7UpsBQ5B4FjAc9CYgcGcLbKHj2wyWMxyxxJ1VNXOuPkLBs3FUIxWNnrOfTwNBmvSjyQionCxbtLObo90iOidhgb0VEmPKS9SdbEA6ga0T-G6bXn3fQwTLUveDaWLV367CIpXRi-FIi-B31dvX76I80rHdNxtNsepRzDx5HVSpEjdmTlC7J8x90VJGtN9r_2Y4cUzwI6RPMBLRKvW4w9zqWPSVk9mH_SYFdvwLnc4cnAcF7kikSuz53WgQGyT1s4zYBkw25W9DsoMKz7rZLi7W_kEobJ-bggXOUu8QfkM3UG6M_JgBAcZ0YR9vkSNA5gDoXCATvfpH=w1366-h621-ft)
 ## Legal
@@ -160,6 +172,7 @@ Los fabricantes e importadores de dispositivos médicos de uso en humanos.
 * **Miguel A. Califa U.** - [*GitHub*](https://github.com/miguel5612) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000050477)
 * **Yersson Ramiro Carrillo Amado** - [*GitHub*](https://github.com/yercar18) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001637655)
 * **Brayam Steven caicedo florez**  - [*GitHub*]() - [CV]()
+* **Nelson Beltrán Galvis** - [*GitHub*]() - [CV]()
 * **Carlos Mauricio Pallares Carrillo**  - [*GitHub*]() - [CV]()
 * **Pedro Jesús Gonzalez Torres** - [*GitHub*]() - [CV]()
 * **Cesar Salazar Paez.** - [*GitHub*]() - [CV]()
@@ -169,12 +182,24 @@ Los fabricantes e importadores de dispositivos médicos de uso en humanos.
 * **Johan Jazer Orduz Molina** - [*GitHub*]() - [CV]()
 * **Juan Carlos Vergel** - [*GitHub*]() - [CV]()
 * **Gabriel Eusse** - [*GitHub*]() - [CV]()
+* **Jorge Luis Ciendua** - [*GitHub*]() - [CV]()
+* **Ing Biomedico Cesar (Clinica Santa Ana)** - [*GitHub*]() - [CV]()
+* **Ing Ricardo Rolon (Fonos)** - [*GitHub*]() - [CV]()
 
 ![Salvarting](https://lh3.googleusercontent.com/AzuH3jOi5ijnEcBDfXqL9HO_dPtBWpY2o58rWW1Xs_0ZaDoCeQ3xv360V7CZS7bsBUqv0pDOposgkDT3DAi3yIPqlXZP7J1HyBVd-t-to11igDhemcz5UUPSBZnqGLU42xnTKCZJpqrAlS0BhXmNHU1_EvFbg_bI5e_7AJx1lK5m9I7xtGxhTFvkI-zklvQf-6Z7U1L5KZBkmRg-JPZFk8UC5Ya-2qhQrEqKgbY-1Md4UCZd68lofqCBUZvTWCyD6wAxPec3V3orE-1dGjDgIlzIy4jSBaJW5LoNbydOVX07a7PGOYYdLXv7eSfOCAw7tAxD3zSKpzNdMdhiqvDPTZ0lburtJx6bjczDjIFSIoI5KIiVG_KiXXX6EAqbD7morxt3GX5E4REXdMfpl62sb_R9vdzUF4ae9oKkikAZTiikukzlVI05N4iLpUsKOHRKKVzFCt5JrIy-TXJ2qG0tDsCLQXNdKIsNCkHGnROc4McGRKQlU4DOxNewBHJeVlQmZALjLfw23fuDTYy1m2x9ZrLUxmApKCXLTusb90rSfdJ_bDuBUlIT9jq2ecbUUrIQgrE-twAkozCFi6JfoBu-d6hNE7kfJ7mHlt26OZwY_WbLxKBbv5jtsqn6omjIs0wQgbWF27glJMZxitQbUY7m5two3oGTVWC_ZKyezbhasqG5bR9WKMJPT5yiXYzc1IxHUZ6u=w1366-h621-ft)
 
 # Partners
 * **[CNC Ciensia](https://www.instagram.com/cnc.ciensa/)**
 * **[Vistronica](https://www.vistronica.com/)**
+## Universidad Francisco de Paula Santander
+* **Ing Matias Herrera (Punto vive digital)** - [*GitHub*]() - [CV]()
+* **Nelson Beltrán Galvis (Semillero datascience)** - [*GitHub*]() - [CV]()
+* **Ing Byron Medina Delgado (Decano de ingenierias** - [*GitHub*]() - [CV]()
+* **Ing Jhan Piero Rojas Suarez (Investigacion y extension** - [*GitHub*]() - [CV]()
+## Tecnoparque ocaña (SENA)
+* **Ing Carolina** - [*GitHub*]() - [CV]()
+## Universidad de Pamplona
+* **Jose Daniel Ramirez Cardoso** - [*GitHub*]() - [CV]()
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/miguel5612/Arduino_Respirator.svg?style=flat-square
