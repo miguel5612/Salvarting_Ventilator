@@ -13,7 +13,7 @@
 
 // Motor steps per revolution. Most steppers are 200 steps or 1.8 degrees/step
 #define MOTOR_STEPS 180
-#define RPM 200
+#define RPM 20
 
 // Since microstepping is set externally, make sure this matches the selected mode
 // If it doesn't, the motor will move at a different RPM than chosen
@@ -33,11 +33,14 @@ BasicStepperDriver stepper(MOTOR_STEPS, DIR, STEP);
 //BasicStepperDriver stepper(MOTOR_STEPS, DIR, STEP, SLEEP);
 
 void setup() {
+    Serial.begin(9600);
+    Serial.println("Test start");
     stepper.begin(RPM, MICROSTEPS);
     // if using enable/disable on ENABLE pin (active LOW) instead of SLEEP uncomment next line
     // stepper.setEnableActiveState(LOW);
 }
 
+int rpmMotor = RPM;
 void loop() {
   
     // energize coils - the motor will hold position
@@ -46,9 +49,14 @@ void loop() {
     /*
      * Moving motor one full revolution using the degree notation
      */
-    stepper.rotate(RPM*MOTOR_STEPS);
-
-    while(1);
+     while(rpmMotor <= 1500)
+     {  
+        Serial.print("RPM: ");
+        Serial.println(rpmMotor);
+        stepper.rotate(RPM*(MOTOR_STEPS/4));
+        rpmMotor += RPM;
+        stepper.setRPM(rpmMotor);
+     }
     /*
      * Moving motor to original position using steps
      */

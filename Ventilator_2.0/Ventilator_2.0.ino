@@ -23,18 +23,25 @@ const int Z_ENABLE_PIN       = 62;  // Active LOW
 #define minZendstop           19
 
 #define SERIAL_BAUD 115200  // Serial port communication speed
-#define motorMaxAcceleration    20000
+#define motorMaxAcceleration    3000
 #define electroVExpiracion    8
 #define electroVInspiracion   9
+#define delayDriverResponse   1
+#define delayToRemoveInercia 20
 
 #include <AccelStepper.h>  // Stepper / servo library with step pulse / dir interface
 AccelStepper stepper(1, pin_Stepper_Step, pin_Stepper_DIR);
 
-double relacionInspiracionExpiracion = 3.2;
-double motorSpeed = 8000;
-double maxRecorridoMotor = 3000;
-float tiempoInspiracionExpiracion = 1;
+double motorSpeed = 800;
+double maxRecorridoMotor = 850;
+
+double relacionInspiracionExpiracion = 1;
+float tiempoInspiracionExpiracion = 0.1;
+
 int cantidadCiclos = 0;
+
+const int distanceToEndstopMinZ = 70;
+const int distanceToTouchAmbu = 0;
 
 void setup() {
   // put your setup code here, to run once:
@@ -56,7 +63,7 @@ void setup() {
   Serial.println("Init started");
   
   digitalWrite(pin_Stepper_DIR, HIGH);     // active (inverted)
-  while(digitalRead(minZendstop))
+  while(!z0reached())
   {
       stepper.setSpeed(-800);
       stepper.runSpeed();
@@ -76,47 +83,30 @@ void loop() {
   digitalWrite(pin_Stepper_DIR, LOW);     // active (inverted)
   Serial.println("Inspiracion");  
   //Serial.println(stepper.currentPosition());
-  while (stepper.currentPosition() < (maxRecorridoMotor - maxRecorridoMotor/8))  {
+  while (stepper.currentPosition() < (maxRecorridoMotor - distanceToEndstopMinZ - distanceToTouchAmbu))  {
     stepper.setSpeed(motorSpeed);
     stepper.runSpeed();
-    //Serial.print("Dir 1 - ");
+    Serial.println("Avance lento");
     //Serial.println(stepper.currentPosition());
-    delay(1);
+    delay(delayDriverResponse);
   }
-  //Serial.println(stepper.currentPosition());
-  while(stepper.currentPosition() < maxRecorridoMotor)
-  {
-    stepper.setSpeed(motorSpeed/1.5);
-    stepper.runSpeed();
-    delay(1);
-    //Serial.print("Dir 1 - ");
-    //Serial.println(stepper.currentPosition());
-  }
-  
+  //while(1);
   delay(tiempoInspiracionExpiracion*1000);
 
   digitalWrite(electroVExpiracion, HIGH);
   digitalWrite(electroVInspiracion, LOW);
   digitalWrite(pin_Stepper_DIR, HIGH);     // active (inverted)
   Serial.println("Expiracion");
-  while (stepper.currentPosition() > maxRecorridoMotor/4)   {
+  while ((stepper.currentPosition() > distanceToEndstopMinZ) & (!z0reached()))   {
     stepper.setSpeed(-(motorSpeed/relacionInspiracionExpiracion));
     stepper.runSpeed();
-    delay(1);
-    //Serial.print("Dir 2 - ");
+    delay(delayDriverResponse);
+    Serial.println("Reversa rapida");
     //Serial.println(stepper.currentPosition());
   }
-  while(stepper.currentPosition() > 0)
-  {
-    stepper.setSpeed(-(motorSpeed/relacionInspiracionExpiracion)/1.2);
-    stepper.runSpeed();
-    delay(1);
-    //Serial.print("Dir 1 - ");
-   // Serial.println(stepper.currentPosition());
-  }
 
-  delay(250); // Elimina la inercia que lleve el brazo
-  if(!digitalRead(minZendstop)) alejarseFinalCarrera();
+  delay(delayToRemoveInercia); // Elimina la inercia que lleve el brazo
+  if(z0reached()) alejarseFinalCarrera();
   //delay(tiempoInspiracionExpiracion*1000);
   cantidadCiclos++;
   Serial.print("Ciclos: ");
@@ -127,13 +117,16 @@ void alejarseFinalCarrera()
 {
   // Para alejarme 50 pasos del final de carrera
   stepper.setCurrentPosition(0);
-  while (stepper.currentPosition() < 100)  {
+  while (stepper.currentPosition() < (distanceToEndstopMinZ + distanceToTouchAmbu))  {
     stepper.setSpeed(motorSpeed);
     stepper.runSpeed();
-    delay(1);
+    delay(delayDriverResponse);
     Serial.print("Alejandome del final de carrera...");
     //Serial.println(stepper.currentPosition());
   }
-  
-  stepper.setCurrentPosition(0);
+}
+
+bool z0reached()
+{
+  return !digitalRead(minZendstop);
 }
