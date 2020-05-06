@@ -12,13 +12,13 @@
 #include "BasicStepperDriver.h"
 
 // Motor steps per revolution. Most steppers are 200 steps or 1.8 degrees/step
-#define MOTOR_STEPS 180
-#define RPM 200
+#define MOTOR_STEPS 300
+#define RPM 300
 
 // Since microstepping is set externally, make sure this matches the selected mode
 // If it doesn't, the motor will move at a different RPM than chosen
 // 1=full step, 2=half step etc.
-#define MICROSTEPS 1
+#define MICROSTEPS 2
 
 // All the wires needed for full functionality
 #define DIR 55

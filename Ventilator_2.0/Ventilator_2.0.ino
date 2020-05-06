@@ -23,24 +23,25 @@ const int Z_ENABLE_PIN       = 62;  // Active LOW
 #define minZendstop           19
 
 #define SERIAL_BAUD 115200  // Serial port communication speed
-#define motorMaxAcceleration    3000
+#define motorMaxAcceleration    4000
 #define electroVExpiracion    8
 #define electroVInspiracion   9
 #define delayDriverResponse   1
-#define delayToRemoveInercia 20
+#define delayToRemoveInercia 100
 
 #include <AccelStepper.h>  // Stepper / servo library with step pulse / dir interface
 AccelStepper stepper(1, pin_Stepper_Step, pin_Stepper_DIR);
 
-double motorSpeed = 800;
-double maxRecorridoMotor = 850;
+double motorSpeed = 8
+00;
+double maxRecorridoMotor = 900;
 
 double relacionInspiracionExpiracion = 1;
-float tiempoInspiracionExpiracion = 0.1;
+float tiempoInspiracionExpiracion = 0.4;
 
 int cantidadCiclos = 0;
 
-const int distanceToEndstopMinZ = 70;
+const int distanceToEndstopMinZ = 160;
 const int distanceToTouchAmbu = 0;
 
 void setup() {
@@ -51,13 +52,12 @@ void setup() {
   pinMode(minZendstop, INPUT_PULLUP);
   
   pinMode(pin_Stepper_DIR, OUTPUT);
-  digitalWrite(pin_Stepper_DIR, LOW);     // active (inverted)
   
   pinMode(pin_Stepper_Step, OUTPUT);
   digitalWrite(pin_Stepper_Step, LOW);    // active (inverted)
   
   pinMode(pin_Stepper_Disable, OUTPUT);
-  digitalWrite(pin_Stepper_Disable, LOW);
+  digitalWrite(pin_Stepper_Disable, HIGH);
   
   stepper.setMaxSpeed(motorMaxAcceleration);
   Serial.println("Init started");
@@ -65,7 +65,7 @@ void setup() {
   digitalWrite(pin_Stepper_DIR, HIGH);     // active (inverted)
   while(!z0reached())
   {
-      stepper.setSpeed(-800);
+      stepper.setSpeed(-motorSpeed);
       stepper.runSpeed();
       Serial.println("Buscando origen...");
   }
@@ -80,7 +80,6 @@ void setup() {
 void loop() {
   digitalWrite(electroVExpiracion, LOW);
   digitalWrite(electroVInspiracion, HIGH);
-  digitalWrite(pin_Stepper_DIR, LOW);     // active (inverted)
   Serial.println("Inspiracion");  
   //Serial.println(stepper.currentPosition());
   while (stepper.currentPosition() < (maxRecorridoMotor - distanceToEndstopMinZ - distanceToTouchAmbu))  {
@@ -95,7 +94,6 @@ void loop() {
 
   digitalWrite(electroVExpiracion, HIGH);
   digitalWrite(electroVInspiracion, LOW);
-  digitalWrite(pin_Stepper_DIR, HIGH);     // active (inverted)
   Serial.println("Expiracion");
   while ((stepper.currentPosition() > distanceToEndstopMinZ) & (!z0reached()))   {
     stepper.setSpeed(-(motorSpeed/relacionInspiracionExpiracion));
