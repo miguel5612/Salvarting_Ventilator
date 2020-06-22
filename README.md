@@ -49,10 +49,10 @@ To design a low cost/ high sofisticated respirator using local materials
 | id | Name | Value | Implementation |
 | ------------- | ------------- | ------------- |  ------------- |
 | a | Volume | 0.2 -> 1 Liter  | Ambu-size |
-| b | PEEP | 5 -> 20 cmH2O | Ambu valve |
+| b | PEEP (Positive end-expiratory pressure) | 5 -> 20 cmH2O | Ambu valve |
 | c | FiO2 | 21 -> 100% | Mixture using air valves |
 | d | Relation inspiration - expiration | 1:1 - 1:3.2 | Time or Frecuency using Potentiometer (P1) |
-| e | PIP | 5-80 cmH2O | Pressure sensor measured and programmed using Potentiometer (P2) |
+| e | PIP (Peak inspiratory pressure) | 5-80 cmH2O | Pressure sensor measured and programmed using Potentiometer (P2) |
 | f | Volume-control or Pressure-control | option 1 or option 2 | 3 positions button (SW1) |
 | g | Alarm | Buzzer | Pre-programmed |
 | h | Frecuency respirated | up to 35/minute | Speed of motor Potentiometer (P3) |
