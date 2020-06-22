@@ -169,28 +169,30 @@ Los fabricantes e importadores de dispositivos médicos de uso en humanos.
 
 # Team
 ## Salvarting
-* **Miguel A. Califa U.** - [*GitHub*](https://github.com/miguel5612) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000050477)
-* **Yersson Ramiro Carrillo Amado** - [*GitHub*](https://github.com/yercar18) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001637655)
-* **Brayam Steven caicedo florez**  - [*GitHub*]() - [CV]()
-* **Nelson Beltrán Galvis** - [*GitHub*]() - [CV]()
-* **Carlos Mauricio Pallares Carrillo**  - [*GitHub*]() - [CV]()
-* **Pedro Jesús Gonzalez Torres** - [*GitHub*]() - [CV]()
-* **Cesar Salazar Paez.** - [*GitHub*]() - [CV]()
-* **Yeison Ferney Osorio buitrago** - [*GitHub*]() - [CV]()
-* **Alber Iván Sánchez Álvarez** - [*GitHub*]() - [CV]()
-* **Juan Enrique Vargas López** - [*GitHub*]() - [CV]()
-* **Johan Jazer Orduz Molina** - [*GitHub*]() - [CV]()
-* **Juan Carlos Vergel** - [*GitHub*]() - [CV]()
-* **Gabriel Eusse** - [*GitHub*]() - [CV]()
-* **Jorge Luis Ciendua** - [*GitHub*]() - [CV]()
-* **Ing Biomedico Cesar (Clinica Santa Ana)** - [*GitHub*]() - [CV]()
-* **Ing Ricardo Rolon (Fonos)** - [*GitHub*]() - [CV]()
+* **(Ingeniero Electronico) Miguel A. Califa U.** - [*GitHub*](https://github.com/miguel5612) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000050477)
+* **(Esp.En Gestion Ambiental) Yersson Ramiro Carrillo Amado** - [*GitHub*](https://github.com/yercar18) - [CV](https://scienti.colciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001637655)
+* **(Est. Ingenieria Sistemas) Brayam Steven caicedo florez**  - [*GitHub*]() - [CV]()
+* **(Ingenieria de Sistemas - Semillero Datascience) Nelson Beltrán Galvis** - [*GitHub*]() - [CV]()
+* **(Ingeniero Electronico) Carlos Mauricio Pallares Carrillo**  - [*GitHub*]() - [CV]()
+* **(Ingeniero Electronico) Pedro Jesús Gonzalez Torres** - [*GitHub*]() - [CV]()
+* **(Medico Anestesiologo) Cesar Salazar Paez.** - [*GitHub*]() - [CV]()
+* **(Est. Ingenieria de sistemas) Yeison Ferney Osorio buitrago** - [*GitHub*]() - [CV]()
+* **(Ing Mecanico) Alber Iván Sánchez Álvarez** - [*GitHub*]() - [CV]()
+* **(Est. Ingenieria Electronica) Juan Enrique Vargas López** - [*GitHub*]() - [CV]()
+* **(Tecnologo Mecatronico) Johan Jazer Orduz Molina** - [*GitHub*]() - [CV]()
+* **(Ing Mecanico) Juan Carlos Vergel** - [*GitHub*]() - [CV]()
+* **(Medico) Gabriel Eusse** - [*GitHub*]() - [CV]()
+
 
 ![Salvarting](https://lh3.googleusercontent.com/AzuH3jOi5ijnEcBDfXqL9HO_dPtBWpY2o58rWW1Xs_0ZaDoCeQ3xv360V7CZS7bsBUqv0pDOposgkDT3DAi3yIPqlXZP7J1HyBVd-t-to11igDhemcz5UUPSBZnqGLU42xnTKCZJpqrAlS0BhXmNHU1_EvFbg_bI5e_7AJx1lK5m9I7xtGxhTFvkI-zklvQf-6Z7U1L5KZBkmRg-JPZFk8UC5Ya-2qhQrEqKgbY-1Md4UCZd68lofqCBUZvTWCyD6wAxPec3V3orE-1dGjDgIlzIy4jSBaJW5LoNbydOVX07a7PGOYYdLXv7eSfOCAw7tAxD3zSKpzNdMdhiqvDPTZ0lburtJx6bjczDjIFSIoI5KIiVG_KiXXX6EAqbD7morxt3GX5E4REXdMfpl62sb_R9vdzUF4ae9oKkikAZTiikukzlVI05N4iLpUsKOHRKKVzFCt5JrIy-TXJ2qG0tDsCLQXNdKIsNCkHGnROc4McGRKQlU4DOxNewBHJeVlQmZALjLfw23fuDTYy1m2x9ZrLUxmApKCXLTusb90rSfdJ_bDuBUlIT9jq2ecbUUrIQgrE-twAkozCFi6JfoBu-d6hNE7kfJ7mHlt26OZwY_WbLxKBbv5jtsqn6omjIs0wQgbWF27glJMZxitQbUY7m5two3oGTVWC_ZKyezbhasqG5bR9WKMJPT5yiXYzc1IxHUZ6u=w1366-h621-ft)
 
 # Partners
 * **[CNC Ciensia](https://www.instagram.com/cnc.ciensa/)**
 * **[Vistronica](https://www.vistronica.com/)**
+* **Ing Ricardo Rolon (Fonos)** 
+* **Ing Cesar - Soluciones Biomedicas del norte** 
+
+
 ## Universidad Francisco de Paula Santander
 * **Ing Matias Herrera (Punto vive digital)** - [*GitHub*]() - [CV]()
 * **Nelson Beltrán Galvis (Semillero datascience)** - [*GitHub*]() - [CV]()
