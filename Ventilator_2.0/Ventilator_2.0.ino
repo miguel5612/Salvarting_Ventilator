@@ -32,8 +32,7 @@ const int Z_ENABLE_PIN       = 62;  // Active LOW
 #include <AccelStepper.h>  // Stepper / servo library with step pulse / dir interface
 AccelStepper stepper(1, pin_Stepper_Step, pin_Stepper_DIR);
 
-double motorSpeed = 8
-00;
+double motorSpeed = 800;
 double maxRecorridoMotor = 900;
 
 double relacionInspiracionExpiracion = 1;
