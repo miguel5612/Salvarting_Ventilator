@@ -29,6 +29,32 @@ const int Z_ENABLE_PIN       = 62;  // Active LOW
 #define delayDriverResponse   1
 #define delayToRemoveInercia 100
 
+#define pot0 A9 // Volumen
+#define pot1 A5 // Relacion Inspiracion/Expiracion
+#define pot2 A11 // PIP 
+#define pot3 A12 // Frecuencia respiratoria
+
+#define selector A10
+
+// Configs
+#define maxVolume 600 //cm3
+#define minVolume 100 //cm3
+#define maxIE 3.2 //relacion (Adimensional)
+#define minIE 1 //relacion (Adimensional)
+#define maxPip 80 //cmH2O
+#define minPip 5 //cmH2O
+#define maxFreq 35 //35 por minuto
+#define minFreq 10 //10 por minuto
+//EQ
+float m1 = (maxVolume-minVolume)/(1024.0-0.0);
+float m2 = (maxIE-minIE)/(1024.0-0.0);
+float m3 = (maxPip-minPip)/(1024.0-0.0);
+float m4 = (maxFreq-minFreq)/(1024.0-0.0);
+
+short sel = 0; //0 - Apagado; 1 - Control volumen; 2 - Control Presion
+int temp = 0, volume, PIP, freq;
+float IE;
+
 #include <AccelStepper.h>  // Stepper / servo library with step pulse / dir interface
 AccelStepper stepper(1, pin_Stepper_Step, pin_Stepper_DIR);
 
@@ -59,6 +85,15 @@ void setup() {
   digitalWrite(pin_Stepper_Disable, HIGH);
   
   stepper.setMaxSpeed(motorMaxAcceleration);
+
+  pinMode(pot0, INPUT);
+  pinMode(pot1, INPUT);
+  pinMode(pot2, INPUT);
+  pinMode(pot3, INPUT);
+
+  pinMode(selector, INPUT);
+  
+  Serial.begin(9600);
   Serial.println("Init started");
   
   digitalWrite(pin_Stepper_DIR, HIGH);     // active (inverted)
@@ -108,6 +143,8 @@ void loop() {
   cantidadCiclos++;
   Serial.print("Ciclos: ");
   Serial.println(cantidadCiclos);
+  
+  leerPots();
 }
 
 void alejarseFinalCarrera()

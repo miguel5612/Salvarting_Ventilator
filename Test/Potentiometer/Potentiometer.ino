@@ -1,7 +1,9 @@
-#define pot0 A0 // Volumen
-#define pot1 A1 // Relacion Inspiracion/Expiracion
-#define pot2 A2 // PIP 
-#define pot3 A3 // Frecuencia respiratoria
+#define pot0 A9 // Volumen
+#define pot1 A5 // Relacion Inspiracion/Expiracion
+#define pot2 A11 // PIP 
+#define pot3 A12 // Frecuencia respiratoria
+
+#define selector A10
 
 // Configs
 #define maxVolume 600 //cm3
@@ -13,11 +15,12 @@
 #define maxFreq 35 //35 por minuto
 #define minFreq 10 //10 por minuto
 //EQ
-int m1 = (maxVolume-minVolume)/(255-0);
-int m2 = (maxIE-minIE)/(255-0);
-int m3 = (maxPip-minPip)/(255-0);
-int m4 = (maxFreq-minFreq)/(255-0);
+float m1 = (maxVolume-minVolume)/(1024.0-0.0);
+float m2 = (maxIE-minIE)/(1024.0-0.0);
+float m3 = (maxPip-minPip)/(1024.0-0.0);
+float m4 = (maxFreq-minFreq)/(1024.0-0.0);
 
+short sel = 0; //0 - Apagado; 1 - Control volumen; 2 - Control Presion
 int temp = 0, volume, PIP, freq;
 float IE;
 
@@ -28,16 +31,25 @@ void setup()
     pinMode(pot2, INPUT);
     pinMode(pot3, INPUT);
 
+    pinMode(selector, INPUT);
     Serial.begin(9600);
 }
 void loop()
 {
     leerPots();
 
-    Serial.print("Volume: "); Serial.print(volume); Serial.println("cm3");
+    serialPots();
+    
+    delay(1000);
+}
+void serialPots()
+{
+    Serial.print("Volume: "); Serial.print(volume); Serial.println(" cm3");
     Serial.print("Relacion IE: "); Serial.print(IE); Serial.println("");
-    Serial.print("PIP: "); Serial.print(PIP); Serial.println("cmH2O");
-    Serial.print("Freq: "); Serial.print(Freq); Serial.println("");
+    Serial.print("PIP: "); Serial.print(PIP); Serial.println(" cmH2O");
+    Serial.print("Freq: "); Serial.print(freq); Serial.println("");
+    Serial.print("Sel: "); Serial.print(sel); Serial.println("");
+    Serial.println("***********************************");
 }
 void leerPots()
 {
@@ -52,4 +64,9 @@ void leerPots()
 
     temp = analogRead(pot3);
     freq = m4*temp + minFreq;
+
+    temp = analogRead(selector);
+    if(temp <= 10)  sel = 1;
+    else if(temp > 10 & temp<900) sel = 0;
+    else sel = 2;
 }
