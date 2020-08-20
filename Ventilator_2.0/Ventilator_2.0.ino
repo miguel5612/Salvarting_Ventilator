@@ -44,7 +44,7 @@ const int Z_ENABLE_PIN       = 62;  // Active LOW
 #define maxPip 80 //cmH2O
 #define minPip 5 //cmH2O
 #define maxFreq 35 //35 por minuto
-#define minFreq 10 //10 por minuto
+#define minFreq 6 //6 por minuto
 //EQ
 float m1 = (maxVolume-minVolume)/(1024.0-0.0);
 float m2 = (maxIE-minIE)/(1024.0-0.0);
@@ -145,6 +145,17 @@ void loop() {
   Serial.println(cantidadCiclos);
   
   leerPots();
+}
+
+void calcularTiempos()
+{
+  // 19 de agosto de 2020
+  // Elaborado por Miguel Angel Califa Urquiza
+  // Esta funcion es de vital importancia para el correcto funcionamiento del ventilador, por ello sera documentada especialmente
+  // 1. Con base en la frecuencia respiratoria, hallo el periodo de cada ciclo
+  // 2. Con la relacion inspiracion y expiracion hallo los tiempos que debe tardar cada parte del ciclo
+  // 3. Por ultimo si tengo bastante tiempo de expiracion, puedo permitir que el motor descanse o se detenga por completo puesto que la expiracion es un proceso mecanico
+  int periodo = 
 }
 
 void alejarseFinalCarrera()
