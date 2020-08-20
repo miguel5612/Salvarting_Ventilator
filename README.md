@@ -55,7 +55,7 @@ To design a low cost/ high sofisticated respirator using local materials
 | e | PIP (Peak inspiratory pressure) | 5-80 cmH2O | Pressure sensor measured and programmed using Potentiometer (P2) |
 | f | Volume-control or Pressure-control | option 1 or option 2 | 3 positions button (SW1) |
 | g | Alarm | Buzzer | Pre-programmed |
-| h | Frecuency respirated | up to 35/minute | Speed of motor Potentiometer (P3) |
+| h | Frecuency respirated | 6 - up to 35/minute | Speed of motor Potentiometer (P3) |
 | i | Valve pressure relief - Volume sensor - Flow sensor | Mechanic and electronic devices and accesories | Sensors |
 ## Result
 ![Result 04.04.2020](https://lh3.googleusercontent.com/74NNB0H3t6N-1nOT1vsUdLlPNlwFXykKHZkd4GFfzxG98wrrTX6rUB_0DXySXwOmhQjdTdcqEWCL1JVKhYL1tkzzZi3m95fB6Z5KyTCcldp7wnhxHnuI5DPztQaGmsJ4wwdi_v7ljeAomFtpV-eLrwcQfOwIAzOwz9Ev4EI4Gor0Y-9Qcaw3exYhGfKOqsiPQ5_vbXQDXqlfPbmvsOzri2Ko6WUDGjm-OglGtqqYEPA7lnrCuxn_QIv2r2eg243Wym_rBnNORybEz6VmJ-jMGeU0jZpTQesEjkr_JO6XRMKCYin33snbViC5A3elH5Im7TbpozvPq8AWY2HDQ-vIaNXoB1AkwYXvmX47ZCP2w2jDiyP71yk7EKMVQ6w7UpsBQ5B4FjAc9CYgcGcLbKHj2wyWMxyxxJ1VNXOuPkLBs3FUIxWNnrOfTwNBmvSjyQionCxbtLObo90iOidhgb0VEmPKS9SdbEA6ga0T-G6bXn3fQwTLUveDaWLV367CIpXRi-FIi-B31dvX76I80rHdNxtNsepRzDx5HVSpEjdmTlC7J8x90VJGtN9r_2Y4cUzwI6RPMBLRKvW4w9zqWPSVk9mH_SYFdvwLnc4cnAcF7kikSuz53WgQGyT1s4zYBkw25W9DsoMKz7rZLi7W_kEobJ-bggXOUu8QfkM3UG6M_JgBAcZ0YR9vkSNA5gDoXCATvfpH=w1366-h621-ft)
