@@ -17,6 +17,19 @@
 # Arduino Low Cost Ventilator
 Arduino low cost respirator to assist coronavirus crisis.
 
+# Wire conections
+| Pin | Description | Comentario |
+| ------------- | ------------- | ------------- |
+| A9 | Potenciometro 0 | Volumen |
+| A5 | Potenciometro 1 | Relacion inspiracion y expiracion |
+| A11 | Potenciometro 2 | PIP |
+| A12 | Potenciometro 3 | Frecuencia respiratorio |
+| A10 | Switche de tres posiciones |  Pressure Control (0 Volts), Off (2.5 Volts - Volt divider), Volume control (5 Volts - VCC) |
+| 32 | Sensor de flujo |  |
+| A3 | Switche de presion |  |
+
+
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
