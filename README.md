@@ -20,13 +20,13 @@ Arduino low cost respirator to assist coronavirus crisis.
 # Wire conections
 | Pin | Description | Comentario |
 | ------------- | ------------- | ------------- |
-| A9 | Potenciometro 0 | Volumen |
-| A5 | Potenciometro 1 | Relacion inspiracion y expiracion |
-| A11 | Potenciometro 2 | PIP |
-| A12 | Potenciometro 3 | Frecuencia respiratorio |
-| A10 | Switche de tres posiciones |  Pressure Control (0 Volts), Off (2.5 Volts - Volt divider), Volume control (5 Volts - VCC) |
-| 32 | Sensor de flujo |  |
-| A3 | Switche de presion |  |
+| A9 | Potentiometer 0 | Volume |
+| A5 | Potentiometer 1 | Inspiration/Expiration Frequency |
+| A11 | Potentiometer 2 | PIP |
+| A12 | Potentiometer 3 | Respiratory frecuency |
+| A10 | Three pos switch |  Pressure Control (0 Volts), Off (2.5 Volts - Volt divider), Volume control (5 Volts - VCC) |
+| 32 | Flow sensor | YF-S201 |
+| A3 | Pressure sensor | MPX5010GP |
 
 
 
