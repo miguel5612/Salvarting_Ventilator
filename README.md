@@ -18,7 +18,7 @@
 Arduino low cost respirator to assist coronavirus crisis.
 
 # Wire conections
-| Pin | Description | Comentario |
+| Pin | Description | Comment |
 | ------------- | ------------- | ------------- |
 | A9 | Potentiometer 0 | Volume |
 | A5 | Potentiometer 1 | Inspiration/Expiration Frequency |
